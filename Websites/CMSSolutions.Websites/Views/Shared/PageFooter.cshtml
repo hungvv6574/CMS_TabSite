@@ -1,0 +1,104 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+
+<footer id="page-footer">
+    <div class="footer-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2">
+                    <div class="row">
+                        <a href="/">
+                            <img class="image-logo-bottom" src="@T("Home Footer Logo")" alt="TAB" />
+                        </a>
+                    </div>
+                    
+                    <p class="footer-content"></p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <ul class="footermenu">
+                        @if (Model.ListCategories != null)
+                        {
+                            foreach (var item in Model.ListCategories)
+                            {
+                                <li>
+                                    <a href="@item.Url">@item.ShortName</a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <p class="footer-heading">@T("CONTACT")</p>
+                    <ul class="footercontact">
+                        <li><i class="fa fa-lg fa-home"></i><span> @T("Address Company")</span></li>
+                        <li><i class="fa fa-lg fa-phone"></i><span> @T("Phone Number Company")</span></li>
+                        @*<li><i class="fa fa-lg fa-print"></i><span> @T("Fax Number Company")</span></li>*@
+                        <li><i class="fa fa-lg fa-envelope-o"></i><a href="mailto:@T("Email Address Company")"> @T("Email Address Company")</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <p class="footer-heading">@T("Receive Information")</p>
+                    <form id="frmReceiveEmail" class="form-inline">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input class="form-control style-textbox validate[required, maxSize[50], custom[email]]" name="txtEmailAddress" id="txtEmailAddress" placeholder="@T("Email address")">
+                            </div>
+                        </div>
+                        <button id="btnSendEmail" type="button" class="btn-custom">@T("SEND")</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-2"></div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <p class="copyrightfooter">@T("Tab Copyright")</p>
+                    @*<div class="backtop  pull-right">
+                        <i class="fa fa-angle-up back-to-top" style="display: inline-block;"></i>
+                    </div>*@
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                   @* <div class="social-network" style="padding-top:0px !important;">
+                        <a class="hover-none" target="_blank" href="@T("Social Network Facebook")"><i class="fa fa-facebook faa-vertical animated-hover"></i></a>
+                        <a class="hover-none" target="_blank" href="@T("Social Network Twitter")"><i class="fa fa-twitter faa-vertical animated-hover"></i></a>
+                        <a class="hover-none" target="_blank" href="@T("Social Network Google Plus")"><i class="fa fa-google-plus faa-vertical animated-hover"></i></a>
+                        <a class="hover-none" target="_blank" href="@T("Social Network Github Alt")"><i class="fa fa-tripadvisor faa-vertical animated-hover"></i></a>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#frmReceiveEmail").validationEngine();
+        $("#btnSendEmail").click(function () {
+            if (!validateEmail()) {
+                return;
+            }
+            var data = $("#frmReceiveEmail").find("input").serialize();
+            $.ajax({
+                url: "@Url.Action("ReceiveEmail", "Home")",
+                data: data,
+                type: 'POST',
+                dataType: 'JSON',
+                success: function (result) {
+                    alert(result.Data);
+                    if (result.Status) {
+                        $("#txtEmailAddress").val("");
+                    }
+                },
+                error: function (ex, textStatus, errorThrown) {
+                    alert("Gửi thất bại.");
+                }
+            });
+        });
+    });
+    
+    function validateEmail() {
+        return $("#frmReceiveEmail").validationEngine('validate');
+    }
+</script>

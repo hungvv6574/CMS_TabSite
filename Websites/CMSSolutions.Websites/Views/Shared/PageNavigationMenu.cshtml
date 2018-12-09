@@ -1,0 +1,103 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+<div class="container" id="page-menu">
+    <div class="navbar-header container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse menu-info">
+        <ul id="mainMenu" class="nav nav-justified menu-font">
+            @if (Model.ListCategoriesParent != null && Model.ListCategories != null)
+            {
+                var index = 0;
+                foreach (var categoryRoot in Model.ListCategoriesParent)
+                {
+                    index++;
+                    var classAvticed = string.Empty;
+                    if (Model.CategoryId == categoryRoot.Id)
+                    {
+                        classAvticed = "active";
+                    }
+                    if (categoryRoot.IsHome)
+                    {
+                        if (Model.CategoryId == 0)
+                        {
+                            classAvticed = "active";
+                        }
+                        <li class="@classAvticed">
+                            @if (index == Model.ListCategoriesParent.Count)
+                            {
+                                <a href="@categoryRoot.Url">@categoryRoot.ShortName</a>
+                            }
+                            else
+                            {
+                                <a href="@categoryRoot.Url">@categoryRoot.ShortName </a>
+                            }
+                        </li>
+                        continue;
+                    }
+
+                    if (categoryRoot.HasChilden)
+                    {
+                        var count = 0;
+                        <li class="dropdown @classAvticed">
+                            @if (index == Model.ListCategoriesParent.Count)
+                            {
+                                <a href="@categoryRoot.Url" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">@categoryRoot.ShortName</a>
+                            }
+                            else
+                            {
+                                <a href="@categoryRoot.Url" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">@categoryRoot.ShortName </a>
+                            }
+                            <ul class="dropdown-menu">
+                                @foreach (var categoryInfo in Model.ListCategories.Where(x => x.HasChilden).OrderBy(x => x.MenuOrderBy))
+                                {
+                                    if (count > 0)
+                                    {
+                                        <li class="divider"></li>
+                                    }
+                                    <li><a href="@categoryInfo.Url">@categoryInfo.ShortName</a></li>
+                                    foreach (var item in Model.ListCategories.Where(x => !x.HasChilden).OrderBy(x => x.MenuOrderBy))
+                                    {
+                                        if (item.ParentId == categoryInfo.RefId)
+                                        {
+                                            <li class="busi-subname"><a href="@item.Url"> @item.ShortName</a></li>
+                                        }
+                                    }
+                                    count++;
+                                }
+                            </ul>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="@classAvticed">
+                            @if (index == Model.ListCategoriesParent.Count)
+                            {
+                                <a href="@categoryRoot.Url">@categoryRoot.ShortName</a>
+                            }
+                            else
+                            {
+                                <a href="@categoryRoot.Url">@categoryRoot.ShortName </a>
+                            }
+                        </li>
+                    }
+                }
+            }
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#mainMenu.nav li').click(function (e) {
+            $('.nav li').removeClass('active');
+            var $this = $(this);
+            if (!$this.hasClass('active')) {
+                $this.addClass('active');
+            }
+        });
+    });
+</script>

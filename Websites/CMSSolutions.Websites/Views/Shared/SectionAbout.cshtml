@@ -1,0 +1,22 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+
+<section id="about-us">
+    <div class="container">
+        <div class="col-md-12">
+        @if (Model.CategoryInfo != null)
+        {
+            <h3 class="category-title">
+                <a href="@Model.CategoryInfo.Url">
+                    @Model.CategoryInfo.ShortName
+                </a>
+            </h3>
+            <p class="content-info text-center">
+                @Html.Raw(Model.CategoryInfo.Notes)
+            </p>
+        }
+        </div>
+    </div>
+    <div class="container imgaboutus">
+    <img class="img-responsive" style="width: 100%;" src="@T("Banner About Us")" />
+    </div>
+</section>

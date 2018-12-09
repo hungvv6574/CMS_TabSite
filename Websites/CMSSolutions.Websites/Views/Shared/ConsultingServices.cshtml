@@ -1,0 +1,72 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+@{
+    var listName = string.Empty;
+    var index = 0;
+}
+<section id="category-about">
+    <div class="container content-info">
+        <div class="col-md-12">
+        <div class="category-header">
+            @if (Model.CategoryInfo != null)
+            {
+                <h2>
+                    @Model.CategoryInfo.ShortName
+                </h2>
+            }
+            @Html.Raw(Model.Breadcrumb.ToString())
+            <div class="clearfix"></div>
+        </div>
+
+        @if (Model.Articles != null)
+        {
+            <div class="body-content">
+                @Html.Raw(Model.Articles.Contents)
+            </div>
+        }
+
+            <div class="row" id="display-link">
+                <div class="col-md-12">
+                    <div class="row">
+                        @if (Model.ListImages != null)
+                        {
+                            for (int i = 0; i < Model.ListImages.Count; i++)
+                            {
+                                index++;
+                                var name = "figure" + index;
+                                if (index == Model.ListImages.Count)
+                                {
+                                    listName += listName + "#" + name;
+                                }
+                                else
+                                {
+                                    listName += listName + "#" + name + ",";
+                                }
+                                var image = Model.ListImages[i];
+                                <div class="col-sm-4 col-lg-4 col-md-4">
+                                    <div id="@name" class="thumbnail">
+                                        <img src="@image.FilePath" alt="@image.Caption" />
+                                        <div class="transparent-bg">
+                                            <a href="@image.Url" title="@image.Caption">@image.Caption</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("@listName").hover(function () {
+            $(this).find(".transparent-bg").fadeIn(300);
+        });
+
+        $("@listName").mouseleave(function () {
+            $(this).find(".transparent-bg").fadeOut(300);
+        });
+    });
+</script>

@@ -1,0 +1,71 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+
+<section id="category-about">
+    <div class="container content-info">
+        <div class="category-header">
+            <h2>@T("Search")</h2>
+            @Html.Raw(Model.Breadcrumb.ToString())
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="font-weight: bold;font-size: 14px;">
+                    @T("Từ khóa") <span>"@Model.Keyword"</span> @string.Format(T("đã tìm thấy {0} kết quả."), Model.TotalRow)
+                </h3>
+                <div id="data-results">
+                    @if (Model.ListSearch != null && Model.ListSearch.Count > 0)
+                    {
+                        foreach (var item in Model.ListSearch)
+                        {
+                            <div class="row data-row-3">
+                                <div class="col-md-12">
+                                    <i class="fa fa-lg fa-minus color-red"></i>
+                                    <h3>
+                                        <a href="@item.Url" title="@item.Alias">@item.Title</a>
+                                    </h3>
+                                    @Html.Raw(item.Sumary)
+                                    <div class="clearfix"></div>
+                                    <div class="view-more-2">
+                                        <a href="@item.Url" title="@item.Title"><i class="fa fa-lg fa-fw fa-long-arrow-right" style="color: #d13030"></i> @T("Xem chi tiết")</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <div id="show-content" class="content"></div>
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                var pageIndex = '@Model.PageIndex';
+                                var totalPage = '@Model.TotalPage';
+                                $('#show-content').bootpag({
+                                    total: parseInt(totalPage),
+                                    page: parseInt(pageIndex),
+                                    maxVisible: 5,
+                                    leaps: true,
+                                    href: "?keyword=@Model.Keyword&page={{number}}",
+                                    wrapClass: 'pagination',
+                                    activeClass: 'item-actived',
+                                    disabledClass: 'disabled',
+                                    nextClass: 'next',
+                                    prevClass: 'prev',
+                                    lastClass: 'last',
+                                    firstClass: 'first'
+                                });
+                                
+                                $('#data-results').highlight('@Model.Keyword');
+                            });
+                        </script>
+                    }
+                    else
+                    {
+                        <div class="row data-row-3">
+                            <div class="col-md-12">
+                                @T("Không có dữ liệu.")
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

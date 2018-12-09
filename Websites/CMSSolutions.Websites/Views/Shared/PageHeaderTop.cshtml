@@ -1,0 +1,136 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+<div class="header-top">
+    <div class="container">
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="row">
+                <a href="http://www.tabjsc.com"><img class="img-responsive logo-size" src="@T("Home Top Logo")" /></a>
+            </div>
+        </div>
+        <div class="col-md-5 col-sm-12">
+           @* <div class="row">
+                <div class="pull-right social-network">
+                    <a class="hover-none" target="_blank" href="@T("Social Network Facebook")"><i class="fa fa-facebook faa-vertical animated-hover"></i></a>
+                    <a class="hover-none" target="_blank" href="@T("Social Network Twitter")"><i class="fa fa-twitter faa-vertical animated-hover"></i></a>
+                    <a class="hover-none" target="_blank" href="@T("Social Network Google Plus")"><i class="fa fa-google-plus faa-vertical animated-hover"></i></a>
+                    <a class="hover-none" target="_blank" href="@T("Social Network Github Alt")"><i class="fa fa-tripadvisor faa-vertical animated-hover"></i></a>
+                </div>
+            </div>*@
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="row">
+                <div class="pull-left language-tools">
+                    <input id="keyword" name="keyword" type="text" class="form-control text-search" placeholder="@T("Search")" />
+                </div>
+                <div class="flag-lang">
+                @if (Model.ListLanguages != null)
+                    {
+                        foreach (var language in Model.ListLanguages)
+                        {
+                            <a href="javascript:void(0);" onclick="document.cookie = 'CurrentCulture=; expires=Sat, 1 Jan 1970 17:00:00 GMT; path=/'; document.cookie = 'CurrentCulture=@language.CultureCode; path=/'; window.location.reload();;">
+                                <img alt="@language.Name" src="@language.ImageFlag" />
+                            </a>
+                        }
+                    }
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#show-search").hover(function () {
+            showSearchForm();
+        });
+
+        $("#frmSearchForm").focusout(function () {
+            $("#frmSearchForm").fadeOut(1000);
+            $("#show-search").fadeIn(1000);
+        });
+                
+        $('#keywordSearch').on('keypress', function (event) {
+            if (event.which === 13) {
+                $("#frmSearchForm").submit();
+            }
+        });
+        
+        var isSelected = false;
+        $("#keyword").autocomplete({
+            source: function (request, response) {
+                var keyword = $("#keyword").val();
+                $.ajax({
+                    url: "@Url.Action("SearchData", "Home")",
+                    data: { 'keyword': keyword },
+                    type: 'POST',
+                    dataType: 'JSON',
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            return {
+                                label: item.Title,
+                                value: item.Title,
+                                img: item.Images,
+                                url: "http://" + window.location.hostname + "/search-results.html?keyword=" + item.Title,
+                                //sumary: item.Sumary.substring(0, 80) + "..."
+                            };
+                        }));
+                    },
+                    error: function (ex, textStatus, errorThrown) {
+                        alert("Bộ tìm kiếm đang nâng cấp vui lòng thử lại sau.");
+                    }
+                });
+            },
+            minLength: 2,
+            select: function (event, ui) {
+                if (ui.item != null) {
+                    $('#keyword').val(ui.item.label);
+                }
+                isSelected = true;
+                return false;
+            },
+            change: function (event, ui) {
+                if (ui.item != null) {
+                    $('#keyword').val(ui.item.label);
+                }
+                isSelected = true;
+                return false;
+            },
+            open: function (e, ui) {
+                $(".ui-autocomplete").mCustomScrollbar({
+                    theme: "dark-thick",
+                    autoExpandScrollbar: true
+                });
+            },
+            close: function (e, ui) {
+                $(".ui-autocomplete").mCustomScrollbar("destroy");
+            }
+        });
+        
+        if ($("#keyword").data()) {
+            var ac = $("#keyword").data('ui-autocomplete');
+            if (ac) {
+                ac._renderItem = function (ul, item) {
+                    var source = item.label;
+                    var term = $("#keyword").val();
+                    term = term.replace(/(\s+)/, "(<[^>]+>)*$1(<[^>]+>)*");
+                    var pattern = new RegExp("(" + term + ")", "gi");
+                    source = source.replace(pattern, "<mark>$1</mark>");
+                    source = source.replace(/(<mark>[^<>]*)((<[^>]+>)+)([^<>]*<\/mark>)/, "$1</mark>$2<mark>$4");
+
+                    return $("<li>").data("item.autocomplete", item)
+                        .append("<div class='show-search-result'><a href='" + item.url + "'><div class='search-result-img'><img width='60' height='60' src='" + item.img + "'></div><span>" + source + "</span><br/><div></a>")
+                        .appendTo(ul);
+
+                    //return $("<li>").data("item.autocomplete", item)
+                    //    .append("<div class='show-search-result'><a href='" + item.url + "'><div class='search-result-img'><img width='60' height='80' src='" + item.img + "'></div><span>" + source + "</span><br/><p style='color: #7C7E7F;'>" + item.sumary + "</p><div></a>")
+                    //    .appendTo(ul);
+                };
+            }
+        }
+    });
+
+    function showSearchForm() {
+        $("#show-search").fadeOut(1000);
+        $("#frmSearchForm").fadeIn(1000);
+    }
+</script>

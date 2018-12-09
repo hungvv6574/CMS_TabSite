@@ -1,0 +1,179 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+
+<section id="category-about">
+    <div class="container content-info">
+        <div class="col-md-12">
+        <div class="category-header">
+            @if (Model.CategoryInfo != null)
+            {
+                <h2>
+                    @Model.CategoryInfo.ShortName
+                </h2>
+            }
+            @Html.Raw(Model.Breadcrumb.ToString())
+            <div class="clearfix"></div>
+        </div>
+
+        @if (Model.Articles != null)
+        {
+            <div class="body-content">
+                @Html.Raw(Model.Articles.Contents)
+            </div>
+        }
+
+            <div class="row" id="display-link">
+                <div class="col-md-8">
+                    <div class="row">
+                        @if (Model.ListImages != null && Model.ListImages.Count > 0)
+                        {
+                            if (Model.ListImagesFigure1 != null)
+                            {
+                                <div class="col-sm-12 col-lg-12 col-md-12">
+                                    <div id="figure1" class="thumbnail">
+                                        <div class="img-box">
+                                            @for (int i = 0; i < Model.ListImagesFigure1.Count; i++)
+                                            {
+                                                var imageInfo = Model.ListImagesFigure1[i];
+                                                if (i == 0)
+                                                {
+                                                    <img class="active" src="@imageInfo.FilePath" alt="@imageInfo.Caption" />
+                                                }
+                                                else
+                                                {
+                                                    <img class="display-mode" src="@imageInfo.FilePath" alt="@imageInfo.Caption" />
+                                                }
+                                            }
+                                        </div>
+                                        <div class="transparent-bg">
+                                            <a href="javascript:void(0);" title=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+
+                            if (Model.ListImagesFigureOther != null)
+                            {
+                                for (int i = 0; i < Model.ListImagesFigureOther.Count; i++)
+                                {
+                                    var image = Model.ListImagesFigureOther[i];
+                                    if (image.SortOrder == 2)
+                                    {
+                                        <div class="col-sm-12 col-lg-6 col-md-6">
+                                            <div id="figure2" class="thumbnail">
+                                                <img src="@image.FilePath" alt="@image.Caption" />
+                                                <div class="transparent-bg">
+                                                    <a href="javascript:void(0);" title=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        continue;
+                                    }
+
+                                    if (image.SortOrder == 3)
+                                    {
+                                        <div class="col-sm-12 col-lg-6 col-md-6">
+                                            <div id="figure3" class="thumbnail">
+                                                <img src="@image.FilePath" alt="@image.Caption" />
+                                                <div class="transparent-bg">
+                                                    <a href="javascript:void(0);" title=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        continue;
+                                    }
+
+                                    if (image.SortOrder == 4)
+                                    {
+                                        <div class="col-sm-12 col-lg-6 col-md-6">
+                                            <div id="figure4" class="thumbnail">
+                                                <img src="@image.FilePath" alt="@image.Caption" />
+                                                <div class="transparent-bg">
+                                                    <a href="javascript:void(0);" title=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        continue;
+                                    }
+
+                                    if (image.SortOrder == 5)
+                                    {
+                                        <div class="col-sm-12 col-lg-6 col-md-6">
+                                            <div id="figure5" class="thumbnail">
+                                                <img src="@image.FilePath" alt="@image.Caption" />
+                                                <div class="transparent-bg">
+                                                    <a href="javascript:void(0);" title=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    @if (Model.ListImages != null)
+                    {
+                        for (int i = 0; i < Model.ListImages.Count; i++)
+                        {
+                            var image = Model.ListImages[i];
+                            if (image.SortOrder == 6)
+                            {
+                                <div id="figure6" class="thumbnail">
+                                    <img src="@image.FilePath" alt="@image.Caption" />
+                                    <div class="transparent-bg">
+                                                    <a href="javascript:void(0);" title=""></a>
+                                                </div>
+                                </div>
+                            }
+
+                            if (image.SortOrder == 7)
+                            {
+                                <div id="figure7" class="thumbnail">
+                                    <img src="@image.FilePath" alt="@image.Caption" />
+                                    <div class="transparent-bg">
+                                        <a href="javascript:void(0);" title=""></a>
+                                    </div>
+                                </div>
+                            }
+
+                            if (image.SortOrder == 8)
+                            {
+                                <div id="figure8" class="thumbnail">
+                                    <img src="@image.FilePath" alt="@image.Caption" />
+                                    <div class="transparent-bg">
+                                        <a href="javascript:void(0);" title=""></a>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#figure1, #figure2, #figure3, #figure4, #figure5, #figure6, #figure7, #figure8").hover(function () {
+            $(this).find(".transparent-bg").fadeIn(300);
+        });
+                
+        $("#figure1, #figure2, #figure3, #figure4, #figure5, #figure6, #figure7, #figure8").mouseleave(function () {
+            $(this).find(".transparent-bg").fadeOut(300);
+        });
+        
+        setInterval('cycleImages()', 7000);
+    });
+    
+    function cycleImages() {
+        var $active = $('#figure1 .img-box .active');
+        var $next = ($active.next().length > 0) ? $active.next() : $('#figure1 .img-box img:first');
+        $active.fadeOut(1500, function () {
+            $active.removeClass('active').addClass('display-mode').hide();
+            $next.show().removeClass('display-mode').addClass('active');
+        });
+    }
+</script>

@@ -1,0 +1,840 @@
+﻿
+Start logs ------------------------------- 7:27:37 SA 13 Tháng Mười Hai 2015
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 9:06:18 SA 22 Tháng Mười Hai 2015
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 8:23:27 SA 30 Tháng Mười Hai 2015
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:13:17 CH 06 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 8:44:27 SA 11 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 8:42:07 SA 13 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 4:24:52 CH 19 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 5:07:41 CH 21 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 3:05:11 CH 22 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:14:43 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:14:49 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:14:53 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:14:57 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:06 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:24 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:27 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:30 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:30 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:47 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:15:50 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:17:18 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:19:10 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:20:41 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:20:48 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:20:56 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:20:59 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:22:12 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:23:39 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:24:13 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Introduction/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Introduction/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Introduction/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Introduction/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:38:25 SA 23 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 8:59:38 SA 25 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 9:01:41 SA 30 Tháng Giêng 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 11:26:44 AM Monday, February 08, 2016
+404A public action method 'SendContactEmail' was not found on controller 'CMSSolutions.Websites.Controllers.ContactController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 7:58:40 PM Tuesday, February 09, 2016
+404A public action method 'AddProducts' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 10:49:38 SA 10 Tháng Hai 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 6:41:27 CH 13 Tháng Hai 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:54:05 PM Sunday, February 14, 2016
+404A public action method 'AddProducts' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 9:46:26 SA 15 Tháng Hai 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 10:45:44 AM Tuesday, February 16, 2016
+404A public action method 'CapchaGenerate' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 12:50:10 CH 29 Tháng Hai 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 8:56:50 AM Saturday, March 05, 2016
+404The file '/ftb.imagegallery.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 6:52:56 SA 08 Tháng Ba 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 10:25:56 CH 08 Tháng Ba 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 12:47:10 PM Wednesday, March 09, 2016
+404The file '/public/js/manager/fckeditor/editor/filemanager/connectors/aspx/connector.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 12:47:10 PM Wednesday, March 09, 2016
+404The file '/public/js/manager/fckeditor/editor/filemanager/connectors/aspx/connector.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 12:47:11 PM Wednesday, March 09, 2016
+404The file '/public/js/manager/fckeditor/editor/filemanager/connectors/aspx/connector.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 12:47:11 PM Wednesday, March 09, 2016
+404The file '/public/js/manager/fckeditor/editor/filemanager/connectors/aspx/connector.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 12:47:11 PM Wednesday, March 09, 2016
+404The file '/public/js/manager/fckeditor/editor/filemanager/connectors/aspx/connector.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 8:44:32 PM Wednesday, March 16, 2016
+400A potentially dangerous Request.Path value was detected from the client (:).
+End ---------------------------------------
+
+Start logs ------------------------------- 8:44:33 PM Wednesday, March 16, 2016
+400A potentially dangerous Request.Path value was detected from the client (:).
+End ---------------------------------------
+
+Start logs ------------------------------- 8:10:00 CH 31 Tháng Ba 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 5:43:27 CH 05 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 2:19:18 CH 07 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 10:19:58 SA 10 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 2:15:40 SA 12 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 5:16:12 SA 14 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 3:47:18 CH 20 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 6:41:17 CH 21 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 11:48:46 CH 22 Tháng Tư 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 3:42:49 SA 16 Tháng Năm 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 12:03:34 AM Tuesday, May 17, 2016
+404A public action method 'AddProducts' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 7:36:30 SA 17 Tháng Năm 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 4:54:18 CH 09 Tháng Sáu 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 6:24:40 PM Friday, June 17, 2016
+404A public action method 'AddProducts' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 8:43:59 PM Tuesday, June 21, 2016
+404A public action method 'AddProducts' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 1:13:38 AM Thursday, June 23, 2016
+404The file '/ftb.imagegallery.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 12:31:22 PM Thursday, June 23, 2016
+404The file '/ftb/ftb.imagegallery.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 7:31:44 SA 26 Tháng Sáu 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:33:41 SA 27 Tháng Sáu 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 9:50:59 PM Monday, July 04, 2016
+404A public action method 'AddProducts' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 7:30:28 PM Friday, July 15, 2016
+404A public action method 'SendContactEmail' was not found on controller 'CMSSolutions.Websites.Controllers.ContactController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 7:31:27 PM Friday, July 15, 2016
+404A public action method 'CapchaGenerate' was not found on controller 'CMSSolutions.Websites.Controllers.BaseHomeController'.
+End ---------------------------------------
+
+Start logs ------------------------------- 2:24:05 CH 17 Tháng Bảy 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 4:54:41 SA 20 Tháng Bảy 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:59:01 PM Saturday, July 30, 2016
+404The file '/editor/Gallery.aspx' does not exist.
+End ---------------------------------------
+
+Start logs ------------------------------- 5:58:34 CH 06 Tháng Tám 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 5:00:45 SA 12 Tháng Tám 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 7:54:17 SA 03 Tháng Chín 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 12:10:18 CH 05 Tháng Chín 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 12:40:40 CH 12 Tháng Chín 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 2:48:40 SA 18 Tháng Chín 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 4:22:31 SA 25 Tháng Chín 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 8:41:20 SA 02 Tháng Mười 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/View/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//View/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/View/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/View/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------
+
+Start logs ------------------------------- 3:22:56 CH 03 Tháng Mười 2016
+500The view 'ShapeResult/Display' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/Default/Views/Home/ShapeResult/Display.cshtml
+~/Themes/Default/Views/ShapeResult/Display.cshtml
+~//Home/ShapeResult/Display.cshtml
+~//Shared/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Home/ShapeResult/Display.cshtml
+~/Modules/CMSSolutions.Accounts/Shared/ShapeResult/Display.cshtml
+~/Views/Home/ShapeResult/Display.cshtml
+~/Views/Shared/ShapeResult/Display.cshtml
+End ---------------------------------------

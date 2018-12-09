@@ -1,0 +1,35 @@
+﻿<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key=AIzaSyAn7V-xPHMgF7ak_rTHY_-VQrsbPfa04WY"></script>
+<div id="mainSlider" class="container">
+    <div class="google-map">
+        <div id="gmap_canvas"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    function init_map(titletext, latitude, longitude) {
+        var position = { lat: parseFloat(latitude), lng: parseFloat(longitude) };
+        var id = document.getElementById('gmap_canvas');
+        var map = new google.maps.Map(id, {
+            center: position,
+            zoom: 16
+        });
+        var infowindow = new google.maps.InfoWindow({
+            content: titletext
+        });
+
+        var marker = new google.maps.Marker({
+            position: position,
+            map: map
+        });
+        marker.addListener('click', function () {
+            infowindow.open(map, marker);
+        });
+
+        infowindow.open(map, marker);
+    }
+
+    $(document).ready(function () {
+        var title = decodeURIComponent('@T("Google Map Title")');
+        init_map(title, "@T("Google Map Latitude")", "@T("Google Map Longitude")");
+    });
+    //http://mondeca.com/index.php/en/any-place-en
+</script>

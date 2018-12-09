@@ -1,0 +1,8 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+
+<div id="mainSlider" class="container">
+    @if (Model.BannerImages != null)
+    {
+        <img class="img-responsive" src="@Model.BannerImages.ImageUrl" title="@Model.BannerImages.Caption"/>
+    }
+</div>

@@ -1,0 +1,84 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+@{
+    var listName = string.Empty;
+}
+<section id="our-businesses">
+    <div class="container">
+        <div class="col-md-12">
+        @if (Model.CategoryInfo != null)
+        {
+            <h3 class="category-title">
+                <a href="@Model.CategoryInfo.Url">
+                    @Model.CategoryInfo.ShortName
+                </a>
+            </h3>
+            <p class="content-info text-center">@Html.Raw(Model.CategoryInfo.Notes)</p>
+        }
+            <div class="category-images">
+                <div class="row">
+                    @if (Model.ListCategoryImages != null)
+                    {
+                        var index = 0;
+                        foreach (var keyItem in Model.ListCategoryImages)
+                        {
+                            index++;
+                            var name = "figure" + index;
+                            if (index == Model.ListCategoryImages.Count)
+                            {
+                                listName += listName + "#" + name;
+                            }
+                            else
+                            {
+                                listName += listName + "#" + name + ",";
+                            }
+                            <div class="col-sm-3 col-lg-3 col-md-3">
+                                <div id="@name" class="thumbnail">
+                                    <img src="@keyItem.Key.FilePath" alt="@keyItem.Key.Caption" />
+                                    <div class="transparent-bg">
+                                        @if (keyItem.Value != null && keyItem.Value.Count > 0)
+                                        {
+                                            for (int i = 0; i < keyItem.Value.Count; i++)
+                                            {
+                                                var category =  keyItem.Value[i];
+                                                if (i == 0)
+                                                {
+                                                    <a href="@category.Url" title="@category.Alias">@category.ShortName</a>
+                                                }
+                                                else
+                                                {
+                                                    <br/>
+                                                    <a href="@category.Url" title="@category.Alias">@category.ShortName</a>
+                                                }
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <a href="javascript:void(0);" >view</a>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="caption text-center">
+                                    <h4>
+                                        <a href="@keyItem.Key.Url" title="@keyItem.Key.Caption">@keyItem.Key.Caption</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("@listName").hover(function () {
+            $(this).find(".transparent-bg").fadeIn(300);
+        });
+                
+        $("@listName").mouseleave(function () {
+            $(this).find(".transparent-bg").fadeOut(300);
+        });
+    });
+</script>

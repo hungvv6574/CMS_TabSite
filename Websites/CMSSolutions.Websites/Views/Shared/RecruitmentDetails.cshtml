@@ -1,0 +1,71 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+
+<section id="category-about">
+    <div class="container content-info">
+        <div class="category-header">
+            @if (Model.CategoryInfo != null)
+            {
+                <h2>
+                    @Model.CategoryInfo.ShortName
+                </h2>
+            }
+            @Html.Raw(Model.Breadcrumb.ToString())
+            <div class="clearfix"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="body-content">
+                    <div class="row contact-info">
+                        <div class="col-md-12 name-info">
+                            <h2>@T("CONTACT")</h2>
+                            <i class="fa fa-lg fa-minus"></i>
+                            <p class="color-red full-name">@T("Recruitment Fullname")</p>
+                            <p>@Html.Raw(T("Recruitment Department"))</p>
+                        </div>
+                        <div class="col-md-12 add-info">
+                            <p><span>@T("Recruitment Label Address")</span> @Html.Raw(T("Recruitment Address"))</p>
+                            <p><span>@T("Recruitment Label Mobile")</span> @Html.Raw(T("Recruitment Mobile"))</p>
+                            <p><span>@T("Recruitment Label Email")</span> @Html.Raw(T("Recruitment Email"))</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 border-left">                
+                <div class="row">
+                    <div class="col-md-12 recruitment-contents">
+                        <i class="fa fa-lg fa-minus color-red"></i>
+                        <div class="index-news color-red">01</div>
+                        <h2 >
+                            @Model.Recruitments.Title
+                        </h2>
+                        <ul class="recruiment-info nav">
+                            <li>
+                                 <label><i class="fa fa-lg fa-fw fa-map-marker color-red"></i> @T("Vị trí: ")</label> <span>@Model.Recruitments.Position</span>
+                            </li>
+                            <li>
+                                <label class="vertical-line">|</label> 
+                            </li>
+                            <li>
+                                <label><i class="fa fa-lg fa-fw fa-calendar-o color-red"></i> @T("Loại hình: ")</label> <span>@Model.Recruitments.TimeWork</span>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <hr class="padding-line margin-none" />
+                        @Html.Raw(Model.Recruitments.Contents)
+                    </div>
+                </div>
+                
+                <hr class="hr-box" />
+                <div class="view-more">
+                    @if (Model.CategoryInfo != null)
+                    {
+                        <a class="btn" href="@Url.Action("Index", "HomeRecruitment", new { cateAlias= Model.CategoryInfo.Alias })">
+                            <i class="fa fa-lg fa-fw fa-arrow-left"></i> @(T("Quay lại"))
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

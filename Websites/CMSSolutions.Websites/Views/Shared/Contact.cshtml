@@ -1,0 +1,81 @@
+﻿@model CMSSolutions.Websites.Models.DataViewerModel
+<section id="category-about">
+    <div class="container content-info">
+        <div class="category-header">
+            @if (Model.CategoryInfo != null)
+            {
+                <h2>
+                    @Model.CategoryInfo.ShortName
+                </h2>
+            }
+            @Html.Raw(Model.Breadcrumb.ToString())
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="row" style="margin-top: 10px;">
+            <form id="frmContact">
+                <div class="col-md-12">
+                    <h3>@T("Nhap thong tin")</h3>
+                    <span style="color: #f24026;font-size: 25px;float: left;display: block;margin-top: -4px;padding-right: 5px;">*</span>
+                    <label>@T("Thong tin bat buoc")</label>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="txtFullName">@T("Name")</label>
+                        <input type="text" class="form-control validate[required, maxSize[250]]" name="txtFullName" id="txtFullName" placeholder="" />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPhoneNumber">@T("Mobile")</label>
+                        <input type="text" class="form-control validate[required, maxSize[50]]" name="txtPhoneNumber" id="txtPhoneNumber" placeholder="" />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmailAddress">@T("Email")</label>
+                        <input type="text" class="form-control validate[required, custom[email], maxSize[50]]" name="txtEmailAddress" id="txtEmailAddress" placeholder="" />
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="form-group">
+                        <label for="txtMessages"> </label>
+                        <textarea class="form-control validate[required, maxSize[2000]]" rows="13" name="txtMessages" id="txtMessages" placeholder="@T("Message...")" required></textarea>
+                    </div>
+                    <button type="button" id="btnSend" class="btn btn-size">@T("SEND")</button>
+                    <button type="button" id="btnClear" class="btn btn-reset">@T("Reset")</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#frmContact").validationEngine();
+        $('#btnSend').click(function () {
+            ContactNow();
+        });
+        $('#btnClear').click(function () {
+            $("#txtFullName").val("");
+            $("#txtPhoneNumber").val("");
+            $("#txtEmailAddress").val("");
+            $("#txtMessages").val("");
+        });
+    });
+    function ContactNow() {
+        if (!validateContact()) {
+            return;
+        }
+
+        var data = $("#frmContact").find("input, textarea").serialize();
+        $.ajax({
+            url: '@Url.Action("ContactInformations", "Home")',
+            data: data,
+            type: 'POST',
+            dataType: 'json',
+            success: function (result) {
+                alert(result.Data);
+            }
+        });
+    }
+    function validateContact() {
+        return $("#frmContact").validationEngine('validate');
+    }
+</script>
